@@ -1413,13 +1413,3 @@ dotnet run
 ### 6. Final
 
 ![Final](img/Final.png)
-
----
-
-## Kesimpulan
-
-Project Student Registration Dashboard dikembangkan menggunakan **C#, .NET 10, Avalonia UI, MVVM, Data Binding, CommunityToolkit.Mvvm, Repository Pattern, Entity Framework Core, dan SQLite**.
-
-Implementasi MVVM memisahkan tampilan, business logic, dan model data sehingga source code menjadi lebih modular dibanding project sebelumnya. Data Binding menghubungkan View dan ViewModel tanpa manipulasi control secara langsung melalui code-behind.
-
-Repository Pattern menjadi perantara antara ViewModel dan database, sedangkan Entity Framework Core digunakan untuk berkomunikasi dengan SQLite. Dengan SQLite, data mahasiswa dapat tersimpan secara persisten dan tetap tersedia setelah aplikasi ditutup.
