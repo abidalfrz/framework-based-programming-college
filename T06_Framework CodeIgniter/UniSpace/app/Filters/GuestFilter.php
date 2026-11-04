@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Filters;
+
+use CodeIgniter\Filters\FilterInterface;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
+
+/**
+ * Mencegah pengguna yang sudah login untuk membuka form login kembali.
+ */
+class GuestFilter implements FilterInterface
+{
+    public function before(RequestInterface $request, $arguments = null)
+    {
+        if (session()->get('isLoggedIn')) {
+            return redirect()->to('/admin');
+        }
+
+        return null;
+    }
+
+    public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
+    {
+        return null;
+    }
+}
+

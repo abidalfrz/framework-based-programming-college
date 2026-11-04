@@ -1,0 +1,206 @@
+:root {
+    --uni-primary: #0d9488;
+    --uni-primary-hover: #0f766e;
+    --uni-dark: #0f172a;
+    --uni-slate: #334155;
+    --uni-light: #f8fafc;
+    --uni-border: #e2e8f0;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--uni-dark);
+    background-color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 9999;
+    transition: top 0.2s;
+}
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Navbar */
+.portal-nav {
+    background: #ffffff;
+    border-bottom: 1px solid var(--uni-border);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.brand-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(135deg, #0d9488, #0369a1);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(13, 148, 136, 0.3);
+}
+
+.navbar-brand strong {
+    color: var(--uni-primary);
+}
+
+.portal-nav .nav-link {
+    font-weight: 500;
+    color: var(--uni-slate);
+    padding: 0.5rem 0.85rem;
+    border-radius: 6px;
+    transition: all 0.15s ease-in-out;
+}
+
+.portal-nav .nav-link:hover,
+.portal-nav .nav-link.active {
+    color: var(--uni-primary);
+    background-color: #f0fdfa;
+}
+
+/* Buttons */
+.btn-portal {
+    background-color: var(--uni-primary);
+    border-color: var(--uni-primary);
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+}
+.btn-portal:hover {
+    background-color: var(--uni-primary-hover);
+    border-color: var(--uni-primary-hover);
+    color: #ffffff;
+}
+
+.btn-outline-portal {
+    border-color: var(--uni-primary);
+    color: var(--uni-primary);
+    font-weight: 600;
+}
+.btn-outline-portal:hover {
+    background-color: var(--uni-primary);
+    border-color: var(--uni-primary);
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #0f172a 0%, #115e59 100%);
+    color: #ffffff;
+    padding: 4.5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+.hero-section p {
+    color: #cbd5e1;
+    font-size: 1.15rem;
+}
+
+/* Cards */
+.card-facility {
+    background: #ffffff;
+    border: 1px solid var(--uni-border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-facility:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+    border-color: #cbd5e1;
+}
+
+.facility-thumb {
+    height: 190px;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.facility-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.facility-badge-status {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.badge-tersedia {
+    background-color: #10b981;
+    color: #ffffff;
+}
+
+.badge-reservasi {
+    background-color: #f59e0b;
+    color: #ffffff;
+}
+
+.badge-pemeliharaan {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+.stat-box {
+    background: #ffffff;
+    border: 1px solid var(--uni-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.stat-box .stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: #f0fdfa;
+    color: var(--uni-primary);
+}
+
+/* Footer */
+.portal-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid var(--uni-border);
+    color: #64748b;
+    font-size: 0.9rem;
+}
+

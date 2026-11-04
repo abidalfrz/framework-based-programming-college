@@ -1,0 +1,55 @@
+/* Custom Admin Styling for UniSpace */
+:root {
+    --uni-primary: #0d9488;
+    --uni-primary-hover: #0f766e;
+    --sidebar-bg: #0f172a;
+}
+
+.sidebar-dark .sidebar-brand {
+    color: #fff;
+    background: #0f172a;
+}
+
+.sidebar-dark.bg-gradient-primary {
+    background-color: #0f172a !important;
+    background-image: linear-gradient(180deg, #0f172a 10%, #115e59 100%) !important;
+}
+
+.btn-primary {
+    background-color: #0d9488;
+    border-color: #0d9488;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #0f766e !important;
+    border-color: #0f766e !important;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid #0d9488 !important;
+}
+
+.text-primary {
+    color: #0d9488 !important;
+}
+
+.badge-role {
+    font-size: 0.8rem;
+    padding: 0.35em 0.65em;
+    font-weight: 600;
+}
+
+.img-preview-box {
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 8px;
+    border: 1px solid #e3e6f0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.img-preview-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
