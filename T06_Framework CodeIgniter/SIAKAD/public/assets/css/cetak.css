@@ -1,0 +1,30 @@
+/* Tata letak cetak KRS / transkrip (A4) */
+* { box-sizing: border-box; }
+body { margin: 0; background: #e5e7eb; font-family: "Atkinson Hyperlegible", system-ui, sans-serif; color: #111827; font-size: 14px; }
+.aksi { max-width: 210mm; margin: 1rem auto; display: flex; gap: .75rem; align-items: center; }
+.aksi button { background: #1e40af; color: #fff; border: 0; border-radius: .4rem; padding: .55rem 1rem; font: inherit; font-weight: 700; cursor: pointer; }
+.aksi a { color: #1e40af; }
+.kertas { width: 210mm; min-height: 297mm; margin: 0 auto 2rem; background: #fff; padding: 18mm 16mm; box-shadow: 0 4px 20px rgba(0, 0, 0, .12); }
+.kop { display: flex; gap: 1rem; align-items: center; border-bottom: 3px double #111827; padding-bottom: .75rem; margin-bottom: 1.25rem; }
+.kop .logo { width: 56px; height: 56px; border-radius: 50%; background: #1e40af; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; font-weight: 700; }
+.kop-judul { font-size: 1.25rem; font-weight: 700; letter-spacing: .05em; }
+.kop-sub { font-size: .85rem; color: #374151; }
+h1 { text-align: center; font-size: 1.1rem; letter-spacing: .1em; margin: 0 0 1rem; }
+.identitas { width: 100%; margin-bottom: 1rem; }
+.identitas td { padding: .15rem 0; }
+.identitas td:first-child { width: 9rem; color: #374151; }
+table.data { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+table.data th, table.data td { border: 1px solid #9ca3af; padding: .35rem .5rem; }
+table.data th { background: #f3f4f6; font-size: .8rem; text-transform: uppercase; }
+table.data td.c, table.data th.c { text-align: center; }
+table.data tfoot td { font-weight: 700; background: #f9fafb; }
+h2 { font-size: .95rem; margin: 1rem 0 .4rem; }
+.ttd { display: flex; justify-content: space-between; margin-top: 2.5rem; }
+.ttd > div { width: 45%; text-align: center; }
+.ttd .garis { margin-top: 4.5rem; border-top: 1px solid #111827; padding-top: .25rem; font-weight: 700; }
+@media print {
+    body { background: #fff; }
+    .no-print { display: none; }
+    .kertas { box-shadow: none; margin: 0; width: auto; min-height: auto; padding: 0; }
+    @page { size: A4; margin: 15mm; }
+}

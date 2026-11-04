@@ -1,0 +1,265 @@
+/* SIAKAD — Modern Indigo & Slate Theme (Refreshed UI) */
+:root {
+    --sk-primary: #4f46e5;
+    --sk-primary-hover: #4338ca;
+    --sk-primary-dark: #3730a3;
+    --sk-slate: #0f172a;
+    --sk-slate-card: #1e293b;
+    --sk-soft: #eef2ff;
+    --sk-cyan: #06b6d4;
+    --sk-success: #10b981;
+    --sk-warning: #f59e0b;
+    --sk-danger: #ef4444;
+    --sk-border: #e2e8f0;
+}
+
+body,
+.tooltip,
+.popover {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+}
+
+/* Sidebar Styling */
+.sidebar-siakad {
+    background: linear-gradient(180deg, #0f172a 0%, #1e1b4b 100%) !important;
+}
+
+.sidebar-brand {
+    letter-spacing: .05em;
+    font-size: 1.15rem;
+}
+
+.sidebar-brand strong {
+    color: #818cf8;
+}
+
+.sidebar-siakad .nav-item .nav-link {
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 8px;
+    margin: 0.15rem 0.75rem;
+    transition: all 0.2s ease;
+}
+
+.sidebar-siakad .nav-item .nav-link:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-siakad .nav-item.active .nav-link {
+    background: rgba(99, 102, 241, 0.2) !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    border-left: 4px solid #818cf8;
+}
+
+.sidebar-siakad .nav-item.active .nav-link i {
+    color: #818cf8 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--sk-primary);
+    border-color: var(--sk-primary);
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(79, 70, 229, 0.2);
+    transition: all 0.15s ease-in-out;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--sk-primary-hover) !important;
+    border-color: var(--sk-primary-hover) !important;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+}
+
+.text-primary { color: var(--sk-primary) !important; }
+.border-left-primary { border-left: 0.25rem solid var(--sk-primary) !important; }
+.border-left-success { border-left: 0.25rem solid var(--sk-success) !important; }
+.border-left-warning { border-left: 0.25rem solid var(--sk-warning) !important; }
+.border-left-info { border-left: 0.25rem solid var(--sk-cyan) !important; }
+.border-left-danger { border-left: 0.25rem solid var(--sk-danger) !important; }
+
+a { color: var(--sk-primary); }
+a:hover { color: var(--sk-primary-dark); text-decoration: none; }
+
+.page-item.active .page-link {
+    background-color: var(--sk-primary);
+    border-color: var(--sk-primary);
+}
+.page-link { color: var(--sk-primary); }
+
+.card {
+    border-radius: 12px;
+    border: 1px solid var(--sk-border);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.form-control {
+    border-radius: 8px;
+    border-color: #cbd5e1;
+}
+
+.form-control:focus {
+    border-color: var(--sk-primary);
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.15);
+}
+
+:focus-visible { outline: 3px solid #6366f1; outline-offset: 2px; }
+
+.table thead th {
+    border-top: 0;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+    font-weight: 700;
+}
+.table td { vertical-align: middle; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Periode Chip Header */
+.periode-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    border-radius: 9999px;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+    color: #4338ca;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* Badges */
+.badge-role {
+    font-size: 0.75rem;
+    padding: 0.35em 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    border-radius: 6px;
+    color: #fff;
+}
+.role-admin { background: #4f46e5; }
+.role-dosen { background: #0d9488; }
+.role-mahasiswa { background: #0284c7; }
+
+/* Grade Badges */
+.badge-nilai {
+    min-width: 2.4rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.35em 0.6em;
+    border-radius: 6px;
+}
+.nilai-a { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+.nilai-b { background: #e0e7ff; color: #4338ca; border: 1px solid #c7d2fe; }
+.nilai-c { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+.nilai-d { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+
+.alert-flash { border-left: 4px solid currentColor; }
+
+/* IPK Hero Banner in Student Dashboard */
+.ipk-hero {
+    background: linear-gradient(135deg, #312e81 0%, #0f172a 100%);
+    color: #fff;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.ipk-hero::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    width: 140px;
+    height: 140px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.ipk-hero .angka {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.ipk-hero .label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: #cbd5e1;
+    font-weight: 700;
+}
+
+/* SKS / Quota Progress Meter */
+.meter {
+    height: 0.65rem;
+    border-radius: 9999px;
+    background: #e2e8f0;
+    overflow: hidden;
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    background: var(--sk-primary);
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+}
+.meter.penuh > span { background: var(--sk-danger); }
+.meter.hampir > span { background: var(--sk-warning); }
+
+.input-nilai {
+    width: 6rem;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    border-radius: 6px;
+}
+
+/* Modern Login Styling */
+.login-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
+}
+
+.login-panel {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+}
+
+.login-side {
+    background: #1e1b4b;
+    color: #ffffff;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-side .ikon {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6366f1, #4338ca);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+}
