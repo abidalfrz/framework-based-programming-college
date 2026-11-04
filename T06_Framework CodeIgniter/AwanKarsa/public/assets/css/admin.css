@@ -1,0 +1,52 @@
+/* AwanKarsa admin — SB Admin 2 dengan warna teal toko */
+:root { --km-primary: #0f766e; --km-primary-dark: #115e59; --km-primary-soft: #ccfbf1; --km-cta: #ea580c; }
+body, .tooltip, .popover { font-family: "Plus Jakarta Sans", "Nunito", system-ui, sans-serif; }
+
+.sidebar-toko { background: linear-gradient(180deg, var(--km-primary) 0%, #134e4a 100%); }
+.sidebar-toko .nav-item.active .nav-link { background: rgba(255, 255, 255, .12); border-left: 4px solid #fdba74; }
+.badge-counter-side { font-size: .7rem; }
+.topbar.navbar-light .navbar-nav .nav-link { color: #5a5c69; }
+.topbar.navbar-light .navbar-nav .nav-link:hover { color: var(--km-primary); }
+
+.btn-primary { background-color: var(--km-primary); border-color: var(--km-primary); }
+.btn-primary:hover, .btn-primary:focus { background-color: var(--km-primary-dark); border-color: var(--km-primary-dark); }
+.btn-outline-primary { color: var(--km-primary); border-color: var(--km-primary); }
+.btn-outline-primary:hover { background-color: var(--km-primary); border-color: var(--km-primary); }
+.text-primary { color: var(--km-primary) !important; }
+.border-left-primary { border-left-color: var(--km-primary) !important; }
+.badge-primary { background-color: var(--km-primary); }
+a { color: var(--km-primary); }
+.page-item.active .page-link { background-color: var(--km-primary); border-color: var(--km-primary); }
+.page-link { color: var(--km-primary); }
+.form-control:focus { border-color: var(--km-primary); box-shadow: 0 0 0 .2rem rgba(15, 118, 110, .2); }
+.custom-control-input:checked ~ .custom-control-label::before { background-color: var(--km-primary); border-color: var(--km-primary); }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+
+.table thead th { border-top: 0; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: #5a5c69; }
+.table td { vertical-align: middle; }
+.tabular { font-variant-numeric: tabular-nums; }
+.alert-flash { border-left: 4px solid currentColor; }
+
+.thumb-admin { width: 2.75rem; height: 2.75rem; border-radius: .5rem; overflow: hidden; flex-shrink: 0; }
+.produk-foto { width: 100%; height: 100%; object-fit: cover; display: block; }
+.produk-placeholder { display: flex; align-items: center; justify-content: center; background: linear-gradient(145deg, hsl(var(--hue) 70% 94%), hsl(calc(var(--hue) + 40) 65% 86%)); color: hsl(var(--hue) 45% 32%); }
+.foto-preview { width: 10rem; height: 10rem; border-radius: 1rem; object-fit: cover; border: 2px dashed #b6d5d1; background: #f4fbfa; }
+.bukti-admin { max-width: 100%; max-height: 24rem; border-radius: .6rem; border: 1px solid #e3e6f0; }
+
+.status-badge { font-size: .8rem; padding: .45em .75em; border-radius: 2rem; font-weight: 700; }
+.status-warning { background: #fef3c7; color: #92400e; }
+.status-info { background: #e0f2fe; color: #075985; }
+.status-primary { background: var(--km-primary-soft); color: var(--km-primary-dark); }
+.status-indigo { background: #e0e7ff; color: #3730a3; }
+.status-success { background: #dcfce7; color: #166534; }
+.status-secondary { background: #e2e8f0; color: #334155; }
+
+.status-tabs { display: flex; flex-wrap: wrap; gap: .4rem; }
+.status-tabs a { padding: .4rem .85rem; border-radius: 2rem; background: #fff; border: 1px solid #e3e6f0; color: #5a5c69; font-weight: 700; font-size: .85rem; text-decoration: none; }
+.status-tabs a span { display: inline-block; min-width: 1.4rem; margin-left: .25rem; padding: 0 .35rem; border-radius: 1rem; background: #eaecf4; text-align: center; }
+.status-tabs a.aktif { background: var(--km-primary); border-color: var(--km-primary); color: #fff; }
+.status-tabs a.aktif span { background: rgba(255, 255, 255, .25); }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+}
