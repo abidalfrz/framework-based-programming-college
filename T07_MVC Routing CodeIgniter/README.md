@@ -349,112 +349,112 @@ Ketika browser meminta suatu URL, route di `app/Config/Routes.php` menentukan co
 
 **Landing page desktop**
 
-![Landing page ShopEase pada desktop](docs/screenshots/landing.png)
+![Landing page ShopEase pada desktop](ShopEase/docs/screenshots/landing.png)
 
 **Landing page mobile**
 
-![Landing page ShopEase pada mobile](docs/screenshots/landing-mobile.png)
+![Landing page ShopEase pada mobile](ShopEase/docs/screenshots/landing-mobile.png)
 
 **Katalog**
 
-![Katalog produk](docs/screenshots/catalog.png)
+![Katalog produk](ShopEase/docs/screenshots/catalog.png)
 
 **Detail produk** 
 
-![Detail produk](docs/screenshots/product-detail.png)
+![Detail produk](ShopEase/docs/screenshots/product-detail.png)
 
 **Login**
 
-![Halaman login](docs/screenshots/login.png)
+![Halaman login](ShopEase/docs/screenshots/login.png)
 
 **Registrasi**
 
-![Halaman registrasi](docs/screenshots/register.png)
+![Halaman registrasi](ShopEase/docs/screenshots/register.png)
 
 **About**
 
-![Halaman About](docs/screenshots/about.png)
+![Halaman About](ShopEase/docs/screenshots/about.png)
 
 **Contact**
 
-![Halaman Contact](docs/screenshots/contact.png)
+![Halaman Contact](ShopEase/docs/screenshots/contact.png)
 
 **Keranjang belanja**
 
-![Keranjang customer](docs/screenshots/customer-cart.png)
+![Keranjang customer](ShopEase/docs/screenshots/customer-cart.png)
 
 **Checkout dan pilihan alamat**
 
-![Checkout customer](docs/screenshots/customer-checkout.png)
+![Checkout customer](ShopEase/docs/screenshots/customer-checkout.png)
 
 
 **Alamat pengiriman**
 
-![Alamat customer](docs/screenshots/customer-addresses.png)
+![Alamat customer](ShopEase/docs/screenshots/customer-addresses.png)
 
 **Daftar pesanan**
 
-![Daftar pesanan customer](docs/screenshots/customer-orders.png)
+![Daftar pesanan customer](ShopEase/docs/screenshots/customer-orders.png)
 
 **Detail pesanan dan unggah bukti pembayaran**
 
-![Detail pesanan dan pembayaran customer](docs/screenshots/customer-order-detail.png)
+![Detail pesanan dan pembayaran customer](ShopEase/docs/screenshots/customer-order-detail.png)
 
 
 **Dashboard admin**
 
-![Dashboard admin](docs/screenshots/admin-dashboard.png)
+![Dashboard admin](ShopEase/docs/screenshots/admin-dashboard.png)
 
 **Dashboard admin mobile**
 
-![Dashboard admin pada mobile](docs/screenshots/admin-dashboard-mobile.png)
+![Dashboard admin pada mobile](ShopEase/docs/screenshots/admin-dashboard-mobile.png)
 
 **Daftar pesanan**
 
-![Daftar pesanan admin](docs/screenshots/admin-orders.png)
+![Daftar pesanan admin](ShopEase/docs/screenshots/admin-orders.png)
 
 **Verifikasi pembayaran**
 
-![Verifikasi pembayaran admin](docs/screenshots/admin-payment-verification.png)
+![Verifikasi pembayaran admin](ShopEase/docs/screenshots/admin-payment-verification.png)
 
 **Detail pesanan dan pengiriman**
 
-![Detail pesanan admin](docs/screenshots/admin-order-detail.png)
+![Detail pesanan admin](ShopEase/docs/screenshots/admin-order-detail.png)
 
 **Daftar produk**
 
-![Daftar produk admin](docs/screenshots/admin-products.png)
+![Daftar produk admin](ShopEase/docs/screenshots/admin-products.png)
 
 **Tambah produk**
 
-![Form tambah produk](docs/screenshots/admin-product-create.png)
+![Form tambah produk](ShopEase/docs/screenshots/admin-product-create.png)
 
 **Edit produk**
 
-![Form edit produk](docs/screenshots/admin-product-edit.png)
+![Form edit produk](ShopEase/docs/screenshots/admin-product-edit.png)
 
 **Kategori**
 
-![Pengelolaan kategori](docs/screenshots/admin-categories.png)
+![Pengelolaan kategori](ShopEase/docs/screenshots/admin-categories.png)
 
 
 **Daftar customer**
 
-![Daftar customer admin](docs/screenshots/admin-customers.png)
+![Daftar customer admin](ShopEase/docs/screenshots/admin-customers.png)
 
 **Laporan penjualan**
 
-![Laporan penjualan](docs/screenshots/admin-reports.png)
+![Laporan penjualan](ShopEase/docs/screenshots/admin-reports.png)
 
 **Pengaturan toko**
 
-![Pengaturan toko](docs/screenshots/admin-settings.png)
+![Pengaturan toko](ShopEase/docs/screenshots/admin-settings.png)
 
 
 **Antrean pesanan operator**
 
-![Antrean pesanan operator](docs/screenshots/operator-orders.png)
+![Antrean pesanan operator](ShopEase/docs/screenshots/operator-orders.png)
 
 **Detail pesanan operator**
 
-![Detail pesanan operator](docs/screenshots/operator-order-detail.png)
+![Detail pesanan operator](ShopEase/docs/screenshots/operator-order-detail.png)
