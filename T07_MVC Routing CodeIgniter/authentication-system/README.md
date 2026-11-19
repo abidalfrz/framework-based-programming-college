@@ -347,29 +347,30 @@ Ketika browser meminta suatu URL, route di `app/Config/Routes.php` menentukan co
 
 ### Dokumentasi
 
-**Landing page desktop**
+**Katalog**
+
+![Katalog produk](../ShopEase/docs/screenshots/catalog.png)
+
+**Detail produk** 
+
+![Detail produk](../ShopEase/docs/screenshots/product-detail.png)
+
+**Login**
+
+![Halaman login](../ShopEase/docs/screenshots/login.png)
+
+**Registrasi**
+
+![Halaman registrasi](../ShopEase/docs/screenshots/register.png)
+
+
+<!-- **Landing page desktop**
 
 ![Landing page ShopEase pada desktop](../ShopEase/docs/screenshots/landing.png)
 
 **Landing page mobile**
 
 ![Landing page ShopEase pada mobile](../ShopEase/docs/screenshots/landing-mobile.png)
-
-<!-- **Katalog**
-
-![Katalog produk](ShopEase/docs/screenshots/catalog.png)
-
-**Detail produk** 
-
-![Detail produk](ShopEase/docs/screenshots/product-detail.png)
-
-**Login**
-
-![Halaman login](ShopEase/docs/screenshots/login.png)
-
-**Registrasi**
-
-![Halaman registrasi](ShopEase/docs/screenshots/register.png)
 
 **About**
 
