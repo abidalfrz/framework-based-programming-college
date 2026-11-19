@@ -444,7 +444,7 @@ Ketika browser meminta suatu URL, route di `app/Config/Routes.php` menentukan co
 
 **Laporan penjualan**
 
-![Laporan penjualan](ShopEase/docs/screenshots/admin-reports.png)
+![Laporan penjualan](ShopEase/docs/screenshots/admin-reports.png
 
 **Pengaturan toko**
 
