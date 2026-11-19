@@ -349,11 +349,11 @@ Ketika browser meminta suatu URL, route di `app/Config/Routes.php` menentukan co
 
 **Landing page desktop**
 
-![Landing page ShopEase pada desktop](ShopEase/docs/screenshots/landing.png)
+![Landing page ShopEase pada desktop](../ShopEase/docs/screenshots/landing.png)
 
 **Landing page mobile**
 
-![Landing page ShopEase pada mobile](ShopEase/docs/screenshots/landing-mobile.png)
+![Landing page ShopEase pada mobile](../ShopEase/docs/screenshots/landing-mobile.png)
 
 <!-- **Katalog**
 
