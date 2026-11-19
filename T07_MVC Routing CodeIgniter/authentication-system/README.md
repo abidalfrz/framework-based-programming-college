@@ -457,4 +457,4 @@ Ketika browser meminta suatu URL, route di `app/Config/Routes.php` menentukan co
 
 **Detail pesanan operator**
 
-![Detail pesanan operator](ShopEase/docs/screenshots/operator-order-detail.png) -->
+![Detail pesanan operator](ShopEase/docs/screenshots/operator-order-detail.png -->
